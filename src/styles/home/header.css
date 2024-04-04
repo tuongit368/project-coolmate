@@ -1,0 +1,80 @@
+.header-container {
+    background-color: #212121;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    height: 82px;
+}
+
+.header-container .header-logo {
+    width: 100px;
+    height: 100%;
+    flex: 0,5;
+    background-color: #fff;
+}
+
+.header-container .header-nav-links {
+    display: flex;
+    list-style: none;
+    flex: 6;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.header-container .header-nav-links li {
+    font-size: 14px;
+    font-weight: 400;
+    /* Viết hoa */
+    text-transform: uppercase; 
+    /* margin-right: 16px; */
+    /* cho chữ sát lại với nhau */
+    word-spacing: -1px;
+
+}
+
+.header-container .header-actionUser {
+    flex: 2;
+}
+
+.header-actionUser .header-actionUser-search {
+    background-color: #e8e8e8;
+    padding: 10px 20px;
+    border-radius: 20px;
+    /* dàn hàng ngang */
+    display: flex;
+    align-items: center;
+}
+
+/* làm đồng màu background */
+.header-actionUser .header-actionUser-search input {
+    background-color: transparent;
+    border: none;
+}
+
+/* tắt viền hiển thị boder khi ấn vào  */
+.header-actionUser .header-actionUser-search input:focus {
+    outline: none;
+    border: none;
+}
+
+.header-actionUser .header-actionUser-search input::placeholder {
+    font-size: 14px;
+}
+
+.header-actionUser .header-actionUser-search svg {
+    font-size: 24px;
+    color: black;
+    margin-right: 5px;
+}
+
+.header-container .header-actionUser > svg {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.header-actionUser {
+    display: flex;
+    align-items: center;
+}
