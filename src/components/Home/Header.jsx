@@ -6,6 +6,8 @@ import { CiSearch } from "react-icons/ci";
 import { FaUser } from "react-icons/fa";
 import { IoBagHandleSharp } from "react-icons/io5";
 
+import { Link } from 'react-router-dom';
+
 function Header() {
   return (
     <div className='header-container'>
@@ -28,7 +30,8 @@ function Header() {
 
           </div>
 
-          <FaUser className='header-actionUser-userIcon'/>
+          <Link to="/regiter"> <FaUser className='header-actionUser-userIcon'/> </Link>
+          
           <IoBagHandleSharp className='header-actionUser-bagIcon' />
       </div>
     </div>
