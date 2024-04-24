@@ -31,8 +31,8 @@
     /* margin-right: 16px; */
     /* cho chữ sát lại với nhau */
     word-spacing: -1px;
-
 }
+
 
 .header-container .header-actionUser {
     flex: 2;
@@ -45,6 +45,7 @@
     /* dàn hàng ngang */
     display: flex;
     align-items: center;
+    height: 50px;
 }
 
 /* làm đồng màu background */
@@ -77,4 +78,11 @@
 .header-actionUser {
     display: flex;
     align-items: center;
+}
+
+.header-actionUser .header-actionUser-userIcon {
+    color: #fff;
+    margin-left: 16px; 
+    margin-top: 8px;
+    font-size: 18px;
 }

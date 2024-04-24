@@ -8,4 +8,12 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  overflow: auto;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar { 
+  width: 0 !important;
+  display: none; 
 }

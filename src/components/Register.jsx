@@ -133,7 +133,7 @@ function Register() {
                         <div className="overlay-panel overlay-right">
                             <h1>Hello, Friend!</h1>
                             <p>Rất nhiều đặc quyền và quyền lợi mua sắm đang chờ bạn.</p>
-                            <button className="ghost" id="signUp">Sign Up</button>
+                            <button onClick={() => {navigate("/login")}} className="ghost" id="signUp">Login</button>
                         </div>
                     </div>
                 </div>
