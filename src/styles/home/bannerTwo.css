@@ -1,0 +1,30 @@
+.BannerTwo {
+    position: relative;
+}
+
+.BannerTwo-image a img {
+    width: 100%;
+    /* display: block; */
+    /* height: auto; */
+}
+
+.BannerTwo-image .BannerTwo-text {
+    font-size: 3rem;
+    position: absolute;
+    top: -30%;
+    left: 0;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    max-width: 600px;
+    padding: 0 0 0 3rem;
+}
+
+.BannerTwo-image .BannerTwo-text h2 {
+    text-align: left;
+}
+
+.BannerTwo-image .BannerTwo-text p {
+    font-size: 1.25rem;
+}

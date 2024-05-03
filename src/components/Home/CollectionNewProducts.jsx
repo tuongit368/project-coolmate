@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import Slider from "react-slick";
 
-import '../../styles/home/conllectionNewProducts.css'
+import '../../styles/home/collectionNewProducts.css'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles

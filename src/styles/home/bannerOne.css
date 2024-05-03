@@ -1,0 +1,30 @@
+.Banner {
+    position: relative;
+}
+
+.Banner-image a img {
+    width: 100%;
+    /* display: block; */
+    /* height: auto; */
+}
+
+.Banner-image .Banner-text {
+    font-size: 3.5rem;
+    position: absolute;
+    top: -40%;
+    left: 0;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    max-width: 600px;
+    padding: 0 0 0 3rem;
+}
+
+.Banner-image .Banner-text h2 {
+    text-align: left;
+}
+
+.Banner-image .Banner-text p {
+    font-size: 1.25rem;
+}
