@@ -6,6 +6,9 @@ import BannerOne from '../components/Home/BannerOne'
 import CollectionRunProducts from '../components/Home/CollectionRunProducts'
 import BannerTwo from '../components/Home/BannerTwo'
 import CollectionSportProducts from '../components/Home/CollectionSportProducts'
+import CollectionCategories from '../components/Home/CollectionCategories'
+import Form from '../components/Home/Form'
+
 
 function Home() {
   return (
@@ -17,6 +20,8 @@ function Home() {
       <CollectionRunProducts />
       <BannerTwo />
       <CollectionSportProducts />
+      <CollectionCategories />
+      <Form />
     </div>
   )
 }

@@ -1,0 +1,36 @@
+.email-form {
+    margin: 0px auto;
+    width: 85%;
+}
+
+.email-form-text {
+    text-align: center;
+    border-radius: 24px;
+    width: 200px;
+    background-color: rgb(94, 112, 250);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: block; 
+    margin-bottom: 10px;
+}
+
+.email-form button {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 24px;
+    width: 100px;
+    background-color: rgb(94, 112, 250);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: block; 
+    border: none;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.email-form button:hover {
+    background-color: rgb(50, 72, 237);
+}
+
+
+.email-form input {
+    outline: none;
+}

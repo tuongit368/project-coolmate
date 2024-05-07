@@ -83,11 +83,11 @@ function Login() {
                   <div className="form-container sign-in-container">
                     <form onSubmit={handleSubmit(handleFromLogin)}>
                         <h1>Login</h1>
-                        <div className="social-container">
-                            <a href="#" className="social"><BiLogoFacebook /></a>
-                            <a href="#" className="social"><AiOutlineGooglePlus /></a>
-                            <a href="#" className="social"><FiLinkedin /></a>
-                        </div>
+                            <div className="social-container">
+                                <a href="#" className="social"><BiLogoFacebook /></a>
+                                <a href="#" className="social"><AiOutlineGooglePlus /></a>
+                                <a href="#" className="social"><FiLinkedin /></a>
+                            </div>
                         <span>or use your account</span>
                         <input type="email" placeholder="Email" {...register("email")} />
                         <span>{errors.email?.message}</span>
