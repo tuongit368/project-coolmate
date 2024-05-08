@@ -8,6 +8,7 @@ import BannerTwo from '../components/Home/BannerTwo'
 import CollectionSportProducts from '../components/Home/CollectionSportProducts'
 import CollectionCategories from '../components/Home/CollectionCategories'
 import Form from '../components/Home/Form'
+import Footer from '../components/Home/Footer'
 
 
 function Home() {
@@ -22,6 +23,7 @@ function Home() {
       <CollectionSportProducts />
       <CollectionCategories />
       <Form />
+      <Footer />
     </div>
   )
 }
